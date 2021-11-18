@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #1b1b1b;
+    div{
+
+        width: 102.3px;
+        height: 106px;
+        //border: 1px solid red;
+        position: absolute;
+        //top: 50%;
+        //left: 50%;
+        //transform: translate(-50%, -50%);
+        //background: transparent url("./frontidle.png") 0 0 no-repeat;
+        //animation: idle 1s steps(9) infinite;
+    }
+}
+
+@keyframes idle{
+
+
+    100%{
+        background-position: -921px, 0;
+    } 
+
+
+}
+@keyframes upidle{
+    
+    100%{
+        background-position: -405px, 0;
+    } 
+
+}
+@keyframes downmove{
+    
+    100%{
+        background-position: -1341px, 0;
+    } 
+
+}
+@keyframes sidemove{
+    
+    100%{
+        background-position: -1232px, 0;
+    } 
+
+}
+@keyframes upmove{
+    
+    100%{
+        background-position: -1241px, 0;
+    } 
+
+}

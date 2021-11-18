@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main {
+  width: 700px;
+  height: 700px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border: 5px solid #1b1b1b;
+}
+
+main div {
+  width: 102.3px;
+  height: 106px;
+  position: absolute;
+}
+
+@-webkit-keyframes idle {
+  100% {
+    background-position: -921px, 0;
+  }
+}
+
+@keyframes idle {
+  100% {
+    background-position: -921px, 0;
+  }
+}
+
+@-webkit-keyframes upidle {
+  100% {
+    background-position: -405px, 0;
+  }
+}
+
+@keyframes upidle {
+  100% {
+    background-position: -405px, 0;
+  }
+}
+
+@-webkit-keyframes downmove {
+  100% {
+    background-position: -1341px, 0;
+  }
+}
+
+@keyframes downmove {
+  100% {
+    background-position: -1341px, 0;
+  }
+}
+
+@-webkit-keyframes sidemove {
+  100% {
+    background-position: -1232px, 0;
+  }
+}
+
+@keyframes sidemove {
+  100% {
+    background-position: -1232px, 0;
+  }
+}
+
+@-webkit-keyframes upmove {
+  100% {
+    background-position: -1241px, 0;
+  }
+}
+
+@keyframes upmove {
+  100% {
+    background-position: -1241px, 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */
